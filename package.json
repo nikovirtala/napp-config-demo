@@ -23,7 +23,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.33",
+    "@nikovirtala/projen-aws-cdk-app": "^0.0.56",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -31,18 +31,18 @@
     "esbuild": "^0.24.0",
     "eslint": "^9",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.3.3",
-    "projen": "^0.90.5",
+    "prettier": "^3.4.2",
+    "projen": "^0.90.6",
     "tsx": "^4.19.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.699.0",
-    "@aws-sdk/util-dynamodb": "^3.699.0",
-    "@types/aws-lambda": "^8.10.145",
+    "@aws-sdk/client-dynamodb": "^3.713.0",
+    "@aws-sdk/util-dynamodb": "^3.713.0",
+    "@types/aws-lambda": "^8.10.146",
     "aws-cdk-lib": "2.170.0",
     "constructs": "^10.0.5"
   },
