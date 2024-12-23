@@ -847,10 +847,10 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@nikovirtala/projen-aws-cdk-app@^0.0.61":
-  version "0.0.61"
-  resolved "https://registry.yarnpkg.com/@nikovirtala/projen-aws-cdk-app/-/projen-aws-cdk-app-0.0.61.tgz#f16dca4966f90de295e437ac41a336e4858524fb"
-  integrity sha512-VJw6hf11Vm6b8ZWPRxAQeEd/D0nRJTyD5cd4RL+RSUKErimEZuv/Q7HvFgNa2IRUSi6aD6HSgg2GzBzTNOPGKw==
+"@nikovirtala/projen-aws-cdk-app@^0.0.62":
+  version "0.0.62"
+  resolved "https://registry.yarnpkg.com/@nikovirtala/projen-aws-cdk-app/-/projen-aws-cdk-app-0.0.62.tgz#d911852a63977be6518f48084c6e864c5a12305f"
+  integrity sha512-H6Sg+GHwZrJeZ0UR+phBr6AHlz7COjOk4vq6gTczo5Oy4ENJRfbQ/LAoN7PmPe+0MTJVDkxP/26w/0MP9RLjqw==
   dependencies:
     projen "^0.91.4"
 
