@@ -23,7 +23,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.64",
+    "@nikovirtala/projen-aws-cdk-app": "^0.0.65",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
