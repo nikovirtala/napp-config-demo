@@ -52,4 +52,5 @@ jspm_packages/
 .parcel-cache/
 !/.vscode/extensions.json
 !/.vscode/settings.json
+!/.nvmrc
 !/.projenrc.ts
