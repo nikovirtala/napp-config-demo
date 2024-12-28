@@ -1,4 +1,5 @@
 import { AwsCdkApp } from "@nikovirtala/projen-aws-cdk-app";
+import { javascript } from "projen";
 
 const project = new AwsCdkApp({
     autoApproveOptions: {
@@ -17,6 +18,8 @@ const project = new AwsCdkApp({
     devDeps: ["@nikovirtala/projen-aws-cdk-app"],
     license: "MIT",
     name: "napp-config-demo",
+    packageManager: javascript.NodePackageManager.PNPM,
+    pnpmVersion: "9",
 });
 
 project.synth();
