@@ -23,7 +23,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.74",
+    "@nikovirtala/projen-aws-cdk-app": "^0.0.75",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -35,7 +35,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.4.2",
-    "projen": "^0.91.4",
+    "projen": "^0.91.5",
     "tsx": "^4.19.2",
     "typescript": "5.7.2"
   },
