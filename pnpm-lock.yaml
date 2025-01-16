@@ -25,8 +25,8 @@ importers:
         version: 10.4.2
     devDependencies:
       '@nikovirtala/projen-aws-cdk-app':
-        specifier: ^0.0.88
-        version: 0.0.88(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
+        specifier: ^0.0.89
+        version: 0.0.89(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
       '@types/node':
         specifier: ^22
         version: 22.10.6
@@ -38,7 +38,7 @@ importers:
         version: 8.20.0(eslint@9.18.0)(typescript@5.7.2)
       aws-cdk:
         specifier: ^2
-        version: 2.175.1
+        version: 2.176.0
       esbuild:
         specifier: ^0.24.2
         version: 0.24.2
@@ -55,8 +55,8 @@ importers:
         specifier: ^2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.20.0(eslint@9.18.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@9.18.0)
       eslint-plugin-prettier:
-        specifier: ^5.2.1
-        version: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.18.0))(eslint@9.18.0)(prettier@3.4.2)
+        specifier: ^5.2.2
+        version: 5.2.2(eslint-config-prettier@9.1.0(eslint@9.18.0))(eslint@9.18.0)(prettier@3.4.2)
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -566,8 +566,8 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.88':
-    resolution: {integrity: sha512-Il/VlZcXjuJxinShbtz/VB6oVItpGcpIsDlK+czPo5v2Pn8FUX0dj0k2FitTmPufpnw2U9W7O5/D2Zv+Fu8BIw==}
+  '@nikovirtala/projen-aws-cdk-app@0.0.89':
+    resolution: {integrity: sha512-RZH1v9VH+voaryDLmtYZxSYMbwDF6G4G+DkkiIH90ypc/E84i76mAu6WeNnRFLxzB5C/0hTN4J/6ApmHI3IH7A==}
     engines: {node: '>= 22.12.0'}
     peerDependencies:
       constructs: ^10.4.2
@@ -899,8 +899,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.175.1:
-    resolution: {integrity: sha512-duvy0FtGAAYqJi/x0MjBfCp60ZlDYl0X5/GrADwMz4AfHQ8aTXCyaVsdJuCxz0ZMHSNaFRuCNkAlc2Xu43zQmQ==}
+  aws-cdk@2.176.0:
+    resolution: {integrity: sha512-yRjIXzK2ddznwuSjasWAViYBtBSQbEu6GHlylaC3GHsIUPhrK3KguqIuhdlxjMeiQ1Fvok8REDLCReZJdrSLLg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1103,8 +1103,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-prettier@5.2.1:
-    resolution: {integrity: sha512-gH3iR3g4JfF+yYPaJYkN7jEl9QbweL/YfkoRlNnuIEHEz1vHVlCmWOS+eGGiRuzHQXdJFCOTxRgvju9b8VUmrw==}
+  eslint-plugin-prettier@5.2.2:
+    resolution: {integrity: sha512-1yI3/hf35wmlq66C8yOyrujQnel+v5l1Vop5Cl2I6ylyNTT1JbuUUnV3/41PzwTzcyDp/oF0jWE3HXvcH5AQOQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -2409,7 +2409,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.88(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.89(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
       projen: 0.91.6(constructs@10.4.2)
@@ -2874,7 +2874,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 38.0.1
       constructs: 10.4.2
 
-  aws-cdk@2.175.1:
+  aws-cdk@2.176.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -3189,7 +3189,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@9.18.0))(eslint@9.18.0)(prettier@3.4.2):
+  eslint-plugin-prettier@5.2.2(eslint-config-prettier@9.1.0(eslint@9.18.0))(eslint@9.18.0)(prettier@3.4.2):
     dependencies:
       eslint: 9.18.0
       prettier: 3.4.2

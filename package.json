@@ -23,7 +23,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.88",
+    "@nikovirtala/projen-aws-cdk-app": "^0.0.89",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -33,7 +33,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-prettier": "^5.2.2",
     "prettier": "^3.4.2",
     "projen": "^0.91.6",
     "tsx": "^4.19.2",
