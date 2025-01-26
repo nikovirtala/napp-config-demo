@@ -5,6 +5,10 @@
       "type": "build"
     },
     {
+      "name": "@nikovirtala/projen-vitest",
+      "type": "build"
+    },
+    {
       "name": "@types/node",
       "version": "^22",
       "type": "build"
@@ -65,6 +69,16 @@
       "name": "typescript",
       "version": "5.7.2",
       "type": "build"
+    },
+    {
+      "name": "vitest",
+      "version": "^2",
+      "type": "build"
+    },
+    {
+      "name": "@vitest/coverage-v8",
+      "version": "^2",
+      "type": "devenv"
     },
     {
       "name": "@aws-sdk/client-dynamodb",
