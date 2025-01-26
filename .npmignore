@@ -21,6 +21,7 @@ tsconfig.tsbuildinfo
 !/assets/
 cdk.out/
 .cdk.staging/
+/coverage/
 /.gitattributes
 /.projenrc.ts
 /projenrc
