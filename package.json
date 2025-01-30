@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@nikovirtala/projen-aws-cdk-app": "^0.0.98",
-    "@nikovirtala/projen-vitest": "^1.2.3",
+    "@nikovirtala/projen-vitest": "^1.2.4",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -45,8 +45,8 @@
     "vitest": "^2"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.734.0",
-    "@aws-sdk/util-dynamodb": "^3.734.0",
+    "@aws-sdk/client-dynamodb": "^3.738.0",
+    "@aws-sdk/util-dynamodb": "^3.738.0",
     "@types/aws-lambda": "^8.10.147",
     "aws-cdk-lib": "2.170.0",
     "constructs": "^10.0.5"

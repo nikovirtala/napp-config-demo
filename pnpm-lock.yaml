@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.734.0
-        version: 3.734.0
+        specifier: ^3.738.0
+        version: 3.738.0
       '@aws-sdk/util-dynamodb':
-        specifier: ^3.734.0
-        version: 3.734.0(@aws-sdk/client-dynamodb@3.734.0)
+        specifier: ^3.738.0
+        version: 3.738.0(@aws-sdk/client-dynamodb@3.738.0)
       '@types/aws-lambda':
         specifier: ^8.10.147
         version: 8.10.147
@@ -26,10 +26,10 @@ importers:
     devDependencies:
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.98
-        version: 0.0.98(@nikovirtala/projen-vitest@1.2.3(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
+        version: 0.0.98(@nikovirtala/projen-vitest@1.2.4(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
-        specifier: ^1.2.3
-        version: 1.2.3(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
+        specifier: ^1.2.4
+        version: 1.2.4(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
       '@types/node':
         specifier: ^22
         version: 22.12.0
@@ -113,8 +113,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-dynamodb@3.734.0':
-    resolution: {integrity: sha512-Rlirc4UiNQrG/LFS/uc9Cnnp8aB9wMp/dykRZ1bd5jgD9BwdkkaNQi/lZzQNp3grKRgZypD6mYU6n5HuvOz86A==}
+  '@aws-sdk/client-dynamodb@3.738.0':
+    resolution: {integrity: sha512-ui8mCwdK96dtPVrwaCt5k1pimohtJQR/yfvECyDhbuaIybMxa51rr1DefWd1MmC7UtGJkPnS2Txtng9UJKYsFA==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-sso@3.734.0':
@@ -137,8 +137,8 @@ packages:
     resolution: {integrity: sha512-HEyaM/hWI7dNmb4NhdlcDLcgJvrilk8G4DQX6qz0i4pBZGC2l4iffuqP8K6ZQjUfz5/6894PzeFuhTORAMd+cg==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/credential-provider-node@3.734.0':
-    resolution: {integrity: sha512-9NOSNbkPVb91JwaXOhyfahkzAwWdMsbWHL6fh5/PHlXYpsDjfIfT23I++toepNF2nODAJNLnOEHGYIxgNgf6jQ==}
+  '@aws-sdk/credential-provider-node@3.738.0':
+    resolution: {integrity: sha512-3MuREsazwBxghKb2sQQHvie+uuK4dX4/ckFYiSoffzJQd0YHxaGxf8cr4NOSCQCUesWu8D3Y0SzlnHGboVSkpA==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/credential-provider-process@3.734.0':
@@ -193,11 +193,11 @@ packages:
     resolution: {integrity: sha512-o11tSPTT70nAkGV1fN9wm/hAIiLPyWX6SuGf+9JyTp7S/rC2cFWhR26MvA69nplcjNaXVzB0f+QFrLXXjOqCrg==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/util-dynamodb@3.734.0':
-    resolution: {integrity: sha512-aagaUTV5a4wy/049txOqwshZLDfTkIeKpE8O4H9j/dceinTUSS2uJRbS3YSJ0PXpJi/3GSvAevTu0n+2lZHKHQ==}
+  '@aws-sdk/util-dynamodb@3.738.0':
+    resolution: {integrity: sha512-+CYjx9XwS8YGJuEOcRUmboKRvYStga0nug08B0dT4HNvHOaLcnsOTQ4rTwVasaFUwRHY5L2MeU/yUrracvU0nQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@aws-sdk/client-dynamodb': ^3.734.0
+      '@aws-sdk/client-dynamodb': ^3.738.0
 
   '@aws-sdk/util-endpoints@3.734.0':
     resolution: {integrity: sha512-w2+/E88NUbqql6uCVAsmMxDQKu7vsKV0KqhlQb0lL+RCq4zy07yXYptVNs13qrnuTfyX7uPXkXrlugvK9R1Ucg==}
@@ -760,8 +760,8 @@ packages:
       constructs: ^10.4.2
       projen: ^0.91.6
 
-  '@nikovirtala/projen-vitest@1.2.3':
-    resolution: {integrity: sha512-dX2HsIAZ5xCAlZthLGxtHVsZ38efkvTyMjaxMaS8G5t6DJYtx1TGn41u0vpjWY0JHdaQqY0GxUMz/fr9RRha3g==}
+  '@nikovirtala/projen-vitest@1.2.4':
+    resolution: {integrity: sha512-kNyUzo6W54xfg0XYZqRaC4tqZQTO7E89cG0hJhojEbC/pBxaOn0YukXRmj2Mv9ZaWV3b/+0uv77Kh+8ZIgABDA==}
     engines: {node: '>= 22.12.0'}
     peerDependencies:
       constructs: ^10.4.2
@@ -2427,12 +2427,12 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-dynamodb@3.734.0':
+  '@aws-sdk/client-dynamodb@3.738.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/core': 3.734.0
-      '@aws-sdk/credential-provider-node': 3.734.0
+      '@aws-sdk/credential-provider-node': 3.738.0
       '@aws-sdk/middleware-endpoint-discovery': 3.734.0
       '@aws-sdk/middleware-host-header': 3.734.0
       '@aws-sdk/middleware-logger': 3.734.0
@@ -2571,7 +2571,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/credential-provider-node@3.734.0':
+  '@aws-sdk/credential-provider-node@3.738.0':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.734.0
       '@aws-sdk/credential-provider-http': 3.734.0
@@ -2733,9 +2733,9 @@ snapshots:
       '@smithy/types': 4.1.0
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.734.0(@aws-sdk/client-dynamodb@3.734.0)':
+  '@aws-sdk/util-dynamodb@3.738.0(@aws-sdk/client-dynamodb@3.738.0)':
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.734.0
+      '@aws-sdk/client-dynamodb': 3.738.0
       tslib: 2.8.1
 
   '@aws-sdk/util-endpoints@3.734.0':
@@ -3078,14 +3078,14 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.98(@nikovirtala/projen-vitest@1.2.3(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.98(@nikovirtala/projen-vitest@1.2.4(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))':
     dependencies:
-      '@nikovirtala/projen-vitest': 1.2.3(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
+      '@nikovirtala/projen-vitest': 1.2.4(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))
       aws-cdk-lib: 2.170.0(constructs@10.4.2)
       constructs: 10.4.2
       projen: 0.91.6(constructs@10.4.2)
 
-  '@nikovirtala/projen-vitest@1.2.3(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))':
+  '@nikovirtala/projen-vitest@1.2.4(constructs@10.4.2)(projen@0.91.6(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
       projen: 0.91.6(constructs@10.4.2)
