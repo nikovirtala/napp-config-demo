@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@nikovirtala/projen-aws-cdk-app": "^0.0.99",
-    "@nikovirtala/projen-vitest": "^1.2.22",
+    "@nikovirtala/projen-vitest": "^1.2.23",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
