@@ -26,10 +26,10 @@ importers:
     devDependencies:
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.99
-        version: 0.0.99(@nikovirtala/projen-vitest@1.2.35(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2))
+        version: 0.0.99(@nikovirtala/projen-vitest@1.2.36(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
-        specifier: ^1.2.35
-        version: 1.2.35(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2))
+        specifier: ^1.2.36
+        version: 1.2.36(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2))
       '@types/node':
         specifier: ^22
         version: 22.13.10
@@ -67,8 +67,8 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       projen:
-        specifier: ^0.91.16
-        version: 0.91.16(constructs@10.4.2)
+        specifier: ^0.91.18
+        version: 0.91.18(constructs@10.4.2)
       tsx:
         specifier: ^4.19.3
         version: 4.19.3
@@ -632,12 +632,12 @@ packages:
       constructs: ^10.4.2
       projen: ^0.91.8
 
-  '@nikovirtala/projen-vitest@1.2.35':
-    resolution: {integrity: sha512-ofsWqWGWn0z8LEqBK8lCEHycMCp/QNP5Ir3ms/wdY6EMLDCp0CzfP36dF0shYnQ/UsGnYT3mWKD9zS9Pofk3PQ==}
+  '@nikovirtala/projen-vitest@1.2.36':
+    resolution: {integrity: sha512-D1qktcwKFiZHJGxC2TQtY/z9De38QCdoKcmiu0be6RmEI9kbz0Cc9Uu0tiRuGRpIPRMxRynA6is+fQ6f4ESH0g==}
     engines: {node: '>= 22.12.0'}
     peerDependencies:
       constructs: ^10.4.2
-      projen: ^0.91.16
+      projen: ^0.91.18
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1943,8 +1943,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  projen@0.91.16:
-    resolution: {integrity: sha512-dPiDN9sfeN6VTsx1jG1rePIbUW4MhUD5EPKhgjoYUZUhTMvLkIHaODNP2plG+ATznu05dwm+puGvuCistoB/og==}
+  projen@0.91.18:
+    resolution: {integrity: sha512-Hzvxc/lXRD9E6vcrNf6VrO/XmLshxa861d4A6t8RAAmSJ5/N+FDm7EvTQxZwGEiIZEqmQR2mttHaULdU3EWimg==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -2960,17 +2960,17 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.99(@nikovirtala/projen-vitest@1.2.35(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.99(@nikovirtala/projen-vitest@1.2.36(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2)))(aws-cdk-lib@2.170.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2))':
     dependencies:
-      '@nikovirtala/projen-vitest': 1.2.35(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2))
+      '@nikovirtala/projen-vitest': 1.2.36(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2))
       aws-cdk-lib: 2.170.0(constructs@10.4.2)
       constructs: 10.4.2
-      projen: 0.91.16(constructs@10.4.2)
+      projen: 0.91.18(constructs@10.4.2)
 
-  '@nikovirtala/projen-vitest@1.2.35(constructs@10.4.2)(projen@0.91.16(constructs@10.4.2))':
+  '@nikovirtala/projen-vitest@1.2.36(constructs@10.4.2)(projen@0.91.18(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
-      projen: 0.91.16(constructs@10.4.2)
+      projen: 0.91.18(constructs@10.4.2)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -4484,7 +4484,7 @@ snapshots:
 
   prettier@3.5.3: {}
 
-  projen@0.91.16(constructs@10.4.2):
+  projen@0.91.18(constructs@10.4.2):
     dependencies:
       constructs: 10.4.2
 
