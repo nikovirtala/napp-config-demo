@@ -39,14 +39,14 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.6",
     "prettier": "^3.5.3",
-    "projen": "^0.91.26",
+    "projen": "^0.91.27",
     "tsx": "^4.19.3",
     "typescript": "5.8.2",
     "vitest": "^3"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.797.0",
-    "@aws-sdk/util-dynamodb": "^3.797.0",
+    "@aws-sdk/client-dynamodb": "^3.798.0",
+    "@aws-sdk/util-dynamodb": "^3.798.0",
     "@types/aws-lambda": "^8.10.149",
     "aws-cdk-lib": "2.170.0",
     "constructs": "^10.0.5"
