@@ -6,7 +6,7 @@ const project = new AwsCdkApp({
         allowedUsernames: ["nikovirtala"],
         secret: "GITHUB_TOKEN",
     },
-    cdkVersion: "2.170.0",
+    cdkVersion: "2.194.0",
     copyrightOwner: "Niko Virtala",
     defaultReleaseBranch: "main",
     deps: ["@aws-sdk/client-dynamodb", "@aws-sdk/util-dynamodb", "@types/aws-lambda"],

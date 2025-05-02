@@ -25,8 +25,8 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.102",
-    "@nikovirtala/projen-vitest": "^1.2.47",
+    "@nikovirtala/projen-aws-cdk-app": "^0.0.103",
+    "@nikovirtala/projen-vitest": "^2.0.14",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -48,7 +48,7 @@
     "@aws-sdk/client-dynamodb": "^3.799.0",
     "@aws-sdk/util-dynamodb": "^3.799.0",
     "@types/aws-lambda": "^8.10.149",
-    "aws-cdk-lib": "2.170.0",
+    "aws-cdk-lib": "2.194.0",
     "constructs": "^10.0.5"
   },
   "pnpm": {},
