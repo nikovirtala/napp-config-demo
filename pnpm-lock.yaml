@@ -26,10 +26,10 @@ importers:
     devDependencies:
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.104
-        version: 0.0.104(@nikovirtala/projen-vitest@2.0.15(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2)))(aws-cdk-lib@2.194.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))
+        version: 0.0.104(@nikovirtala/projen-vitest@2.0.16(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2)))(aws-cdk-lib@2.194.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
-        specifier: ^2.0.15
-        version: 2.0.15(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))
+        specifier: ^2.0.16
+        version: 2.0.16(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))
       '@types/node':
         specifier: ^22
         version: 22.15.3
@@ -61,8 +61,8 @@ importers:
         specifier: ^2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.26.0)
       eslint-plugin-prettier:
-        specifier: ^5.2.6
-        version: 5.2.6(eslint-config-prettier@9.1.0(eslint@9.26.0))(eslint@9.26.0)(prettier@3.5.3)
+        specifier: ^5.3.1
+        version: 5.3.1(eslint-config-prettier@9.1.0(eslint@9.26.0))(eslint@9.26.0)(prettier@3.5.3)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -635,8 +635,8 @@ packages:
       constructs: ^10.4.2
       projen: ^0.91.29
 
-  '@nikovirtala/projen-vitest@2.0.15':
-    resolution: {integrity: sha512-UvEEifkgPtcqJr+wrc424H33ij3Uua8/n5kNHFC5G16XT8MLOgz91pH0s0TjBEMOtSOjfeatvi6cEYZAz66Zsg==}
+  '@nikovirtala/projen-vitest@2.0.16':
+    resolution: {integrity: sha512-LTQMFrgd0LTgjXwkqDjTHHfEVmetpDlZhYkKfAG/fljWOpOEg7kE71qMBjwoVdCbV+Gh9u3MAXV41PMYxIEsXA==}
     engines: {node: '>= 22.14.0'}
     peerDependencies:
       constructs: ^10.4.2
@@ -1481,8 +1481,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-prettier@5.2.6:
-    resolution: {integrity: sha512-mUcf7QG2Tjk7H055Jk0lGBjbgDnfrvqjhXh9t2xLMSCjZVcw9Rb1V6sVNXO0th3jgeO7zllWPTNRil3JW94TnQ==}
+  eslint-plugin-prettier@5.3.1:
+    resolution: {integrity: sha512-vad9VWgEm9xaVXRNmb4aeOt0PWDc61IAdzghkbYQ2wavgax148iKoX1rNJcgkBGCipzLzOnHYVgL7xudM9yccQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -3222,14 +3222,14 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.104(@nikovirtala/projen-vitest@2.0.15(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2)))(aws-cdk-lib@2.194.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.104(@nikovirtala/projen-vitest@2.0.16(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2)))(aws-cdk-lib@2.194.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))':
     dependencies:
-      '@nikovirtala/projen-vitest': 2.0.15(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))
+      '@nikovirtala/projen-vitest': 2.0.16(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))
       aws-cdk-lib: 2.194.0(constructs@10.4.2)
       constructs: 10.4.2
       projen: 0.91.29(constructs@10.4.2)
 
-  '@nikovirtala/projen-vitest@2.0.15(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))':
+  '@nikovirtala/projen-vitest@2.0.16(constructs@10.4.2)(projen@0.91.29(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
       projen: 0.91.29(constructs@10.4.2)
@@ -4250,7 +4250,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.2.6(eslint-config-prettier@9.1.0(eslint@9.26.0))(eslint@9.26.0)(prettier@3.5.3):
+  eslint-plugin-prettier@5.3.1(eslint-config-prettier@9.1.0(eslint@9.26.0))(eslint@9.26.0)(prettier@3.5.3):
     dependencies:
       eslint: 9.26.0
       prettier: 3.5.3
