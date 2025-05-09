@@ -12,7 +12,6 @@
 /.mergify.yml linguist-generated
 /.npmignore linguist-generated
 /.npmrc linguist-generated
-/.nvmrc linguist-generated
 /.prettierignore linguist-generated
 /.prettierrc.json linguist-generated
 /.projen/** linguist-generated
@@ -23,6 +22,7 @@
 /.vscode/settings.json linguist-generated
 /cdk.json linguist-generated
 /LICENSE linguist-generated
+/mise.toml linguist-generated
 /package.json linguist-generated
 /pnpm-lock.yaml linguist-generated
 /tsconfig.dev.json linguist-generated
