@@ -40,13 +40,13 @@
     "eslint-plugin-prettier": "^5.4.1",
     "prettier": "^3.5.3",
     "projen": "^0.92.10",
-    "tsx": "^4.19.4",
+    "tsx": "^4.20.1",
     "typescript": "5.8.3",
     "vitest": "^3"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.826.0",
-    "@aws-sdk/util-dynamodb": "^3.826.0",
+    "@aws-sdk/client-dynamodb": "^3.828.0",
+    "@aws-sdk/util-dynamodb": "^3.828.0",
     "@types/aws-lambda": "^8.10.149",
     "aws-cdk-lib": "^2.194.0",
     "constructs": "^10.0.5"
