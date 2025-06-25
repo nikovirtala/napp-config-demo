@@ -1,9 +1,9 @@
-import { join } from "path";
-import { aws_dynamodb, aws_lambda, CfnOutput, RemovalPolicy, Stack, StackProps } from "aws-cdk-lib";
+import { aws_dynamodb, aws_lambda, CfnOutput, RemovalPolicy, Stack, type StackProps } from "aws-cdk-lib";
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
-import { Construct } from "constructs";
+import type { Construct } from "constructs";
+import { join } from "path";
 
-import { NappConfig, ConfigType, SampleConfig, TableV2WithCustomKeySchema } from "../constructs/index.ts";
+import { ConfigType, NappConfig, type SampleConfig, TableV2WithCustomKeySchema } from "../constructs/index.ts";
 
 const sampleConfig: SampleConfig = {
     sample: true,

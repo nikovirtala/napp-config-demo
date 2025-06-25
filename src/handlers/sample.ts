@@ -1,7 +1,7 @@
 import { DynamoDBClient, GetItemCommand } from "@aws-sdk/client-dynamodb";
 import { unmarshall } from "@aws-sdk/util-dynamodb";
-import { APIGatewayProxyResult, Handler } from "aws-lambda";
-import { ConfigItem, ConfigType, SampleConfig } from "../constructs/index.ts";
+import type { APIGatewayProxyResult, Handler } from "aws-lambda";
+import { type ConfigItem, ConfigType, type SampleConfig } from "../constructs/index.ts";
 
 const ddbclient = new DynamoDBClient();
 
