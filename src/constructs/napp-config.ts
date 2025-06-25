@@ -1,10 +1,10 @@
-import { createHash } from "crypto";
-import { GetItemInput } from "@aws-sdk/client-dynamodb";
+import type { GetItemInput } from "@aws-sdk/client-dynamodb";
 import { marshall } from "@aws-sdk/util-dynamodb";
 import { custom_resources } from "aws-cdk-lib";
 import { Construct } from "constructs";
+import { createHash } from "crypto";
 
-import { ITableV2WithCustomKeySchema } from "./table-with-custom-key-schema.ts";
+import type { ITableV2WithCustomKeySchema } from "./table-with-custom-key-schema.ts";
 
 export enum ConfigType {
     SampleConfig = "SAMPLECONFIG",
