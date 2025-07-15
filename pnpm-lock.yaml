@@ -29,10 +29,10 @@ importers:
         version: 2.1.1
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.120
-        version: 0.0.120(@nikovirtala/projen-vitest@2.0.60(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2)))(aws-cdk-lib@2.204.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))
+        version: 0.0.120(@nikovirtala/projen-vitest@2.0.61(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2)))(aws-cdk-lib@2.204.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
-        specifier: ^2.0.60
-        version: 2.0.60(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))
+        specifier: ^2.0.61
+        version: 2.0.61(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))
       '@types/node':
         specifier: ^22
         version: 22.16.3
@@ -465,8 +465,8 @@ packages:
       constructs: ^10.4.2
       projen: ^0.94.0
 
-  '@nikovirtala/projen-vitest@2.0.60':
-    resolution: {integrity: sha512-1nXEWN+GiKzif5yTvicxIkbQrhK926idTSGpRaPsC3m7U181kHAi8uXzIiTgj4n2g/6TD12jpV3BXXLskOOsPg==}
+  '@nikovirtala/projen-vitest@2.0.61':
+    resolution: {integrity: sha512-06+onVACaWkg6dnbQwpPfxFMndcgiUU7TYbqoovxBqU7yvWZDGgZkYeYPpCgboQrK6A8vM5wYMHECcstjqp2yQ==}
     engines: {node: '>= 22.15.0'}
     peerDependencies:
       constructs: ^10.4.2
@@ -1824,14 +1824,14 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.120(@nikovirtala/projen-vitest@2.0.60(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2)))(aws-cdk-lib@2.204.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.120(@nikovirtala/projen-vitest@2.0.61(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2)))(aws-cdk-lib@2.204.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))':
     dependencies:
-      '@nikovirtala/projen-vitest': 2.0.60(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))
+      '@nikovirtala/projen-vitest': 2.0.61(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))
       aws-cdk-lib: 2.204.0(constructs@10.4.2)
       constructs: 10.4.2
       projen: 0.94.2(constructs@10.4.2)
 
-  '@nikovirtala/projen-vitest@2.0.60(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))':
+  '@nikovirtala/projen-vitest@2.0.61(constructs@10.4.2)(projen@0.94.2(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
       projen: 0.94.2(constructs@10.4.2)
