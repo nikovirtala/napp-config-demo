@@ -27,7 +27,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2",
     "@nikovirtala/projen-aws-cdk-app": "^0.0.121",
-    "@nikovirtala/projen-vitest": "^2.0.80",
+    "@nikovirtala/projen-vitest": "^2.0.81",
     "@types/node": "^22",
     "@vitest/coverage-v8": "^3",
     "aws-cdk": "^2",
