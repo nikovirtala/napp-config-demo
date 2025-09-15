@@ -33,6 +33,7 @@
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
+    "noEmit": true,
     "noImplicitOverride": true
   },
   "include": [
