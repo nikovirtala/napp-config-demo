@@ -27,12 +27,12 @@
   "devDependencies": {
     "@biomejs/biome": "^2",
     "@nikovirtala/projen-aws-cdk-app": "^0.0.124",
-    "@nikovirtala/projen-vitest": "^2.0.97",
+    "@nikovirtala/projen-vitest": "^2.0.98",
     "@types/node": "^22",
     "@vitest/coverage-v8": "^3",
     "aws-cdk": "^2",
     "esbuild": "^0.25.10",
-    "projen": "^0.96.2",
+    "projen": "^0.96.3",
     "tsx": "^4.20.5",
     "typescript": "5.8.3",
     "vitest": "^3"
