@@ -9,27 +9,27 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.916.0
-        version: 3.916.0
+        specifier: ^3.917.0
+        version: 3.917.0
       '@aws-sdk/util-dynamodb':
-        specifier: ^3.916.0
-        version: 3.916.0(@aws-sdk/client-dynamodb@3.916.0)
+        specifier: ^3.917.0
+        version: 3.917.0(@aws-sdk/client-dynamodb@3.917.0)
       '@types/aws-lambda':
         specifier: ^8.10.156
         version: 8.10.156
       aws-cdk-lib:
         specifier: ^2.201.0
-        version: 2.220.0(constructs@10.4.2)
+        version: 2.221.0(constructs@10.4.2)
       constructs:
         specifier: ^10.0.5
         version: 10.4.2
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
-        version: 2.2.7
+        version: 2.3.0
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.126
-        version: 0.0.126(@nikovirtala/projen-vitest@2.0.114(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.220.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
+        version: 0.0.126(@nikovirtala/projen-vitest@2.0.114(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.221.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
         specifier: ^2.0.114
         version: 2.0.114(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
@@ -90,8 +90,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-dynamodb@3.916.0':
-    resolution: {integrity: sha512-H2DUibRcjWicW0oRJfDAttEEBQ58L/gw03YQTtjPenGfbpkxKJWKUmM/3X/mN94LckOBedovsJY2e/A6j5VHNg==}
+  '@aws-sdk/client-dynamodb@3.917.0':
+    resolution: {integrity: sha512-PPOyDwlg59ESbj/Ur8VKRvlW6GRViThykNCg5qjCuejiEQ8F1j+0yPxIa+H0x6iklDZF/+AiERtLpmZh3UjD0g==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-sso@3.916.0':
@@ -110,12 +110,12 @@ packages:
     resolution: {integrity: sha512-NmooA5Z4/kPFJdsyoJgDxuqXC1C6oPMmreJjbOPqcwo6E/h2jxaG8utlQFgXe5F9FeJsMx668dtxVxSYnAAqHQ==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/credential-provider-ini@3.916.0':
-    resolution: {integrity: sha512-iR0FofvdPs87o6MhfNPv0F6WzB4VZ9kx1hbvmR7bSFCk7l0gc7G4fHJOg4xg2lsCptuETboX3O/78OQ2Djeakw==}
+  '@aws-sdk/credential-provider-ini@3.917.0':
+    resolution: {integrity: sha512-rvQ0QamLySRq+Okc0ZqFHZ3Fbvj3tYuWNIlzyEKklNmw5X5PM1idYKlOJflY2dvUGkIqY3lUC9SC2WL+1s7KIw==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/credential-provider-node@3.916.0':
-    resolution: {integrity: sha512-8TrMpHqct0zTalf2CP2uODiN/PH9LPdBC6JDgPVK0POELTT4ITHerMxIhYGEiKN+6E4oRwSjM/xVTHCD4nMcrQ==}
+  '@aws-sdk/credential-provider-node@3.917.0':
+    resolution: {integrity: sha512-n7HUJ+TgU9wV/Z46yR1rqD9hUjfG50AKi+b5UXTlaDlVD8bckg40i77ROCllp53h32xQj/7H0yBIYyphwzLtmg==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/credential-provider-process@3.916.0':
@@ -126,8 +126,8 @@ packages:
     resolution: {integrity: sha512-gu9D+c+U/Dp1AKBcVxYHNNoZF9uD4wjAKYCjgSN37j4tDsazwMEylbbZLuRNuxfbXtizbo4/TiaxBXDbWM7AkQ==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/credential-provider-web-identity@3.916.0':
-    resolution: {integrity: sha512-VFnL1EjHiwqi2kR19MLXjEgYBuWViCuAKLGSFGSzfFF/+kSpamVrOSFbqsTk8xwHan8PyNnQg4BNuusXwwLoIw==}
+  '@aws-sdk/credential-provider-web-identity@3.917.0':
+    resolution: {integrity: sha512-pZncQhFbwW04pB0jcD5OFv3x2gAddDYCVxyJVixgyhSw7bKCYxqu6ramfq1NxyVpmm+qsw+ijwi/3cCmhUHF/A==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/endpoint-cache@3.893.0':
@@ -170,11 +170,11 @@ packages:
     resolution: {integrity: sha512-kQWPsRDmom4yvAfyG6L1lMmlwnTzm1XwMHOU+G5IFlsP4YEaMtXidDzW/wiivY0QFrhfCz/4TVmu0a2aPU57ug==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/util-dynamodb@3.916.0':
-    resolution: {integrity: sha512-37rNiC9X2SxKqD60AqT4dXlYMvGrHX6GimpZvlr7AzWWNbDHbkq0P/tsY81EPNvUdabMhJhjd+RSd+FnCXBklg==}
+  '@aws-sdk/util-dynamodb@3.917.0':
+    resolution: {integrity: sha512-JyvFQ9KelP/q020FthqypcO2J0zQS5XRpk7M7pCZrrU/3GYC0aEgKkCeEXVRS7YiajywgmxzPngj4yRlV93QBA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@aws-sdk/client-dynamodb': ^3.916.0
+      '@aws-sdk/client-dynamodb': ^3.917.0
 
   '@aws-sdk/util-endpoints@3.916.0':
     resolution: {integrity: sha512-bAgUQwvixdsiGNcuZSDAOWbyHlnPtg8G8TyHD6DTfTmKTHUW6tAn+af/ZYJPXEzXhhpwgJqi58vWnsiDhmr7NQ==}
@@ -225,55 +225,55 @@ packages:
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
     engines: {node: '>=18'}
 
-  '@biomejs/biome@2.2.7':
-    resolution: {integrity: sha512-1a8j0UP1vXVUf3UzMZEJ/zS2VgAG6wU6Cuh/I764sUGI+MCnJs/9WaojHYBDCxCMLTgU60/WqnYof85emXmSBA==}
+  '@biomejs/biome@2.3.0':
+    resolution: {integrity: sha512-shdUY5H3S3tJVUWoVWo5ua+GdPW5lRHf+b0IwZ4OC1o2zOKQECZ6l2KbU6t89FNhtd3Qx5eg5N7/UsQWGQbAFw==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.2.7':
-    resolution: {integrity: sha512-xBUUsebnO2/Qj1v7eZmKUy2ZcFkZ4/jLUkxN02Qup1RPoRaiW9AKXHrqS3L7iX6PzofHY2xuZ+Pb9kAcpoe0qA==}
+  '@biomejs/cli-darwin-arm64@2.3.0':
+    resolution: {integrity: sha512-3cJVT0Z5pbTkoBmbjmDZTDFYxIkRcrs9sYVJbIBHU8E6qQxgXAaBfSVjjCreG56rfDuQBr43GzwzmaHPcu4vlw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.2.7':
-    resolution: {integrity: sha512-vsY4NhmxqgfLJufr9XUnC+yGUPJiXAc1mz6FcjaAmuIuLwfghN4uQO7hnW2AneGyoi2mNe9Jbvf6Qtq4AjzrFg==}
+  '@biomejs/cli-darwin-x64@2.3.0':
+    resolution: {integrity: sha512-6LIkhglh3UGjuDqJXsK42qCA0XkD1Ke4K/raFOii7QQPbM8Pia7Qj2Hji4XuF2/R78hRmEx7uKJH3t/Y9UahtQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.2.7':
-    resolution: {integrity: sha512-FrTwvKO/7t5HbVTvhlMOTOVQLAcR7r4O4iFQhEpZXUtBfosHqrX/JJlX7daPawoe14MDcCu9CDg0zLVpTuDvuQ==}
+  '@biomejs/cli-linux-arm64-musl@2.3.0':
+    resolution: {integrity: sha512-nDksoFdwZ2YrE7NiYDhtMhL2UgFn8Kb7Y0bYvnTAakHnqEdb4lKindtBc1f+xg2Snz0JQhJUYO7r9CDBosRU5w==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
 
-  '@biomejs/cli-linux-arm64@2.2.7':
-    resolution: {integrity: sha512-nUdco104rjV9dULi1VssQ5R/kX2jE/Z2sDjyqS+siV9sTQda0DwmEUixFNRCWvZJRRiZUWhgiDFJ4n7RowO8Mg==}
+  '@biomejs/cli-linux-arm64@2.3.0':
+    resolution: {integrity: sha512-uhAsbXySX7xsXahegDg5h3CDgfMcRsJvWLFPG0pjkylgBb9lErbK2C0UINW52zhwg0cPISB09lxHPxCau4e2xA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
 
-  '@biomejs/cli-linux-x64-musl@2.2.7':
-    resolution: {integrity: sha512-MnsysF5s/iLC5wnYvuMseOy+m8Pd4bWG1uwlVyy2AUbfjAVUgtbYbboc5wMXljFrDY7e6rLjLTR4S2xqDpGlQg==}
+  '@biomejs/cli-linux-x64-musl@2.3.0':
+    resolution: {integrity: sha512-+i9UcJwl99uAhtRQDz9jUAh+Xkb097eekxs/D9j4deWDg5/yB/jPWzISe1nBHvlzTXsdUSj0VvB4Go2DSpKIMw==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
-  '@biomejs/cli-linux-x64@2.2.7':
-    resolution: {integrity: sha512-tPTcGAIEOOZrj2tQ7fdraWlaxNKApBw6l4In8wQQV1IyxnAexqi0hykHzKEX8hKKctf5gxGBfNCzyIvqpj4CFQ==}
+  '@biomejs/cli-linux-x64@2.3.0':
+    resolution: {integrity: sha512-uxa8reA2s1VgoH8MhbGlCmMOt3JuSE1vJBifkh1ulaPiuk0SPx8cCdpnm9NWnTe2x/LfWInWx4sZ7muaXTPGGw==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
-  '@biomejs/cli-win32-arm64@2.2.7':
-    resolution: {integrity: sha512-h5D1jhwA2b7cFXerYiJfXHSzzAMFFoEDL5Mc2BgiaEw0iaSgSso/3Nc6FbOR55aTQISql+IpB4PS7JoV26Gdbw==}
+  '@biomejs/cli-win32-arm64@2.3.0':
+    resolution: {integrity: sha512-ynjmsJLIKrAjC3CCnKMMhzcnNy8dbQWjKfSU5YA0mIruTxBNMbkAJp+Pr2iV7/hFou+66ZSD/WV8hmLEmhUaXA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.2.7':
-    resolution: {integrity: sha512-URqAJi0kONyBKG4V9NVafHLDtm6IHmF4qPYi/b6x7MD6jxpWeJiTCO6R5+xDlWckX2T/OGv6Yq3nkz6s0M8Ykw==}
+  '@biomejs/cli-win32-x64@2.3.0':
+    resolution: {integrity: sha512-zOCYmCRVkWXc9v8P7OLbLlGGMxQTKMvi+5IC4v7O8DkjLCOHRzRVK/Lno2pGZNo0lzKM60pcQOhH8HVkXMQdFg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -832,8 +832,8 @@ packages:
   ast-v8-to-istanbul@0.3.3:
     resolution: {integrity: sha512-MuXMrSLVVoA6sYN/6Hke18vMzrT4TZNbZIj/hvh0fnYFpO+/kFXcLIaiPwXXWaQUPg4yJD8fj+lfJ7/1EBconw==}
 
-  aws-cdk-lib@2.220.0:
-    resolution: {integrity: sha512-mOEyPP1ymWiLnSE0xFxWjG00E1DQ5wtbcgKUmtGjxyNdoG/Qret1nDLqE43YGZEbwca43WO/a2LDuSL6+hN7Lg==}
+  aws-cdk-lib@2.221.0:
+    resolution: {integrity: sha512-lOS0EnE4NQBW2+/0/qxwDBtGYGt8Fa/lCYsvC2/XTU3vBZ454mKkdI9zWKspZJ+Fo5b2iS1Q7iiSIbQVat2xJA==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1321,12 +1321,12 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-dynamodb@3.916.0':
+  '@aws-sdk/client-dynamodb@3.917.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/core': 3.916.0
-      '@aws-sdk/credential-provider-node': 3.916.0
+      '@aws-sdk/credential-provider-node': 3.917.0
       '@aws-sdk/middleware-endpoint-discovery': 3.914.0
       '@aws-sdk/middleware-host-header': 3.914.0
       '@aws-sdk/middleware-logger': 3.914.0
@@ -1448,14 +1448,14 @@ snapshots:
       '@smithy/util-stream': 4.5.4
       tslib: 2.8.1
 
-  '@aws-sdk/credential-provider-ini@3.916.0':
+  '@aws-sdk/credential-provider-ini@3.917.0':
     dependencies:
       '@aws-sdk/core': 3.916.0
       '@aws-sdk/credential-provider-env': 3.916.0
       '@aws-sdk/credential-provider-http': 3.916.0
       '@aws-sdk/credential-provider-process': 3.916.0
       '@aws-sdk/credential-provider-sso': 3.916.0
-      '@aws-sdk/credential-provider-web-identity': 3.916.0
+      '@aws-sdk/credential-provider-web-identity': 3.917.0
       '@aws-sdk/nested-clients': 3.916.0
       '@aws-sdk/types': 3.914.0
       '@smithy/credential-provider-imds': 4.2.3
@@ -1466,14 +1466,14 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/credential-provider-node@3.916.0':
+  '@aws-sdk/credential-provider-node@3.917.0':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.916.0
       '@aws-sdk/credential-provider-http': 3.916.0
-      '@aws-sdk/credential-provider-ini': 3.916.0
+      '@aws-sdk/credential-provider-ini': 3.917.0
       '@aws-sdk/credential-provider-process': 3.916.0
       '@aws-sdk/credential-provider-sso': 3.916.0
-      '@aws-sdk/credential-provider-web-identity': 3.916.0
+      '@aws-sdk/credential-provider-web-identity': 3.917.0
       '@aws-sdk/types': 3.914.0
       '@smithy/credential-provider-imds': 4.2.3
       '@smithy/property-provider': 4.2.3
@@ -1505,7 +1505,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/credential-provider-web-identity@3.916.0':
+  '@aws-sdk/credential-provider-web-identity@3.917.0':
     dependencies:
       '@aws-sdk/core': 3.916.0
       '@aws-sdk/nested-clients': 3.916.0
@@ -1629,9 +1629,9 @@ snapshots:
       '@smithy/types': 4.8.0
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.916.0(@aws-sdk/client-dynamodb@3.916.0)':
+  '@aws-sdk/util-dynamodb@3.917.0(@aws-sdk/client-dynamodb@3.917.0)':
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.916.0
+      '@aws-sdk/client-dynamodb': 3.917.0
       tslib: 2.8.1
 
   '@aws-sdk/util-endpoints@3.916.0':
@@ -1684,39 +1684,39 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
-  '@biomejs/biome@2.2.7':
+  '@biomejs/biome@2.3.0':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.2.7
-      '@biomejs/cli-darwin-x64': 2.2.7
-      '@biomejs/cli-linux-arm64': 2.2.7
-      '@biomejs/cli-linux-arm64-musl': 2.2.7
-      '@biomejs/cli-linux-x64': 2.2.7
-      '@biomejs/cli-linux-x64-musl': 2.2.7
-      '@biomejs/cli-win32-arm64': 2.2.7
-      '@biomejs/cli-win32-x64': 2.2.7
+      '@biomejs/cli-darwin-arm64': 2.3.0
+      '@biomejs/cli-darwin-x64': 2.3.0
+      '@biomejs/cli-linux-arm64': 2.3.0
+      '@biomejs/cli-linux-arm64-musl': 2.3.0
+      '@biomejs/cli-linux-x64': 2.3.0
+      '@biomejs/cli-linux-x64-musl': 2.3.0
+      '@biomejs/cli-win32-arm64': 2.3.0
+      '@biomejs/cli-win32-x64': 2.3.0
 
-  '@biomejs/cli-darwin-arm64@2.2.7':
+  '@biomejs/cli-darwin-arm64@2.3.0':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.2.7':
+  '@biomejs/cli-darwin-x64@2.3.0':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.2.7':
+  '@biomejs/cli-linux-arm64-musl@2.3.0':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.2.7':
+  '@biomejs/cli-linux-arm64@2.3.0':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.2.7':
+  '@biomejs/cli-linux-x64-musl@2.3.0':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.2.7':
+  '@biomejs/cli-linux-x64@2.3.0':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.2.7':
+  '@biomejs/cli-win32-arm64@2.3.0':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.2.7':
+  '@biomejs/cli-win32-x64@2.3.0':
     optional: true
 
   '@esbuild/aix-ppc64@0.25.11':
@@ -1825,10 +1825,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.126(@nikovirtala/projen-vitest@2.0.114(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.220.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.126(@nikovirtala/projen-vitest@2.0.114(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.221.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))':
     dependencies:
       '@nikovirtala/projen-vitest': 2.0.114(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
-      aws-cdk-lib: 2.220.0(constructs@10.4.2)
+      aws-cdk-lib: 2.221.0(constructs@10.4.2)
       constructs: 10.4.2
       projen: 0.98.4(constructs@10.4.2)
 
@@ -2273,7 +2273,7 @@ snapshots:
       estree-walker: 3.0.3
       js-tokens: 9.0.1
 
-  aws-cdk-lib@2.220.0(constructs@10.4.2):
+  aws-cdk-lib@2.221.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.242
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
