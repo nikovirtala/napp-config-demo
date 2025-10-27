@@ -26,10 +26,10 @@ importers:
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
-        version: 2.3.0
+        version: 2.3.1
       '@nikovirtala/projen-aws-cdk-app':
-        specifier: ^0.0.127
-        version: 0.0.127(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.221.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
+        specifier: ^0.0.128
+        version: 0.0.128(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.221.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.0
         version: 2.1.0(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
@@ -221,55 +221,55 @@ packages:
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
     engines: {node: '>=18'}
 
-  '@biomejs/biome@2.3.0':
-    resolution: {integrity: sha512-shdUY5H3S3tJVUWoVWo5ua+GdPW5lRHf+b0IwZ4OC1o2zOKQECZ6l2KbU6t89FNhtd3Qx5eg5N7/UsQWGQbAFw==}
+  '@biomejs/biome@2.3.1':
+    resolution: {integrity: sha512-A29evf1R72V5bo4o2EPxYMm5mtyGvzp2g+biZvRFx29nWebGyyeOSsDWGx3tuNNMFRepGwxmA9ZQ15mzfabK2w==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.3.0':
-    resolution: {integrity: sha512-3cJVT0Z5pbTkoBmbjmDZTDFYxIkRcrs9sYVJbIBHU8E6qQxgXAaBfSVjjCreG56rfDuQBr43GzwzmaHPcu4vlw==}
+  '@biomejs/cli-darwin-arm64@2.3.1':
+    resolution: {integrity: sha512-ombSf3MnTUueiYGN1SeI9tBCsDUhpWzOwS63Dove42osNh0PfE1cUtHFx6eZ1+MYCCLwXzlFlYFdrJ+U7h6LcA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.3.0':
-    resolution: {integrity: sha512-6LIkhglh3UGjuDqJXsK42qCA0XkD1Ke4K/raFOii7QQPbM8Pia7Qj2Hji4XuF2/R78hRmEx7uKJH3t/Y9UahtQ==}
+  '@biomejs/cli-darwin-x64@2.3.1':
+    resolution: {integrity: sha512-pcOfwyoQkrkbGvXxRvZNe5qgD797IowpJPovPX5biPk2FwMEV+INZqfCaz4G5bVq9hYnjwhRMamg11U4QsRXrQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.3.0':
-    resolution: {integrity: sha512-nDksoFdwZ2YrE7NiYDhtMhL2UgFn8Kb7Y0bYvnTAakHnqEdb4lKindtBc1f+xg2Snz0JQhJUYO7r9CDBosRU5w==}
+  '@biomejs/cli-linux-arm64-musl@2.3.1':
+    resolution: {integrity: sha512-+DZYv8l7FlUtTrWs1Tdt1KcNCAmRO87PyOnxKGunbWm5HKg1oZBSbIIPkjrCtDZaeqSG1DiGx7qF+CPsquQRcg==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
 
-  '@biomejs/cli-linux-arm64@2.3.0':
-    resolution: {integrity: sha512-uhAsbXySX7xsXahegDg5h3CDgfMcRsJvWLFPG0pjkylgBb9lErbK2C0UINW52zhwg0cPISB09lxHPxCau4e2xA==}
+  '@biomejs/cli-linux-arm64@2.3.1':
+    resolution: {integrity: sha512-td5O8pFIgLs8H1sAZsD6v+5quODihyEw4nv2R8z7swUfIK1FKk+15e4eiYVLcAE4jUqngvh4j3JCNgg0Y4o4IQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
 
-  '@biomejs/cli-linux-x64-musl@2.3.0':
-    resolution: {integrity: sha512-+i9UcJwl99uAhtRQDz9jUAh+Xkb097eekxs/D9j4deWDg5/yB/jPWzISe1nBHvlzTXsdUSj0VvB4Go2DSpKIMw==}
+  '@biomejs/cli-linux-x64-musl@2.3.1':
+    resolution: {integrity: sha512-Y3Ob4nqgv38Mh+6EGHltuN+Cq8aj/gyMTJYzkFZV2AEj+9XzoXB9VNljz9pjfFNHUxvLEV4b55VWyxozQTBaUQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
-  '@biomejs/cli-linux-x64@2.3.0':
-    resolution: {integrity: sha512-uxa8reA2s1VgoH8MhbGlCmMOt3JuSE1vJBifkh1ulaPiuk0SPx8cCdpnm9NWnTe2x/LfWInWx4sZ7muaXTPGGw==}
+  '@biomejs/cli-linux-x64@2.3.1':
+    resolution: {integrity: sha512-PYWgEO7up7XYwSAArOpzsVCiqxBCXy53gsReAb1kKYIyXaoAlhBaBMvxR/k2Rm9aTuZ662locXUmPk/Aj+Xu+Q==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
-  '@biomejs/cli-win32-arm64@2.3.0':
-    resolution: {integrity: sha512-ynjmsJLIKrAjC3CCnKMMhzcnNy8dbQWjKfSU5YA0mIruTxBNMbkAJp+Pr2iV7/hFou+66ZSD/WV8hmLEmhUaXA==}
+  '@biomejs/cli-win32-arm64@2.3.1':
+    resolution: {integrity: sha512-RHIG/zgo+69idUqVvV3n8+j58dKYABRpMyDmfWu2TITC+jwGPiEaT0Q3RKD+kQHiS80mpBrST0iUGeEXT0bU9A==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.3.0':
-    resolution: {integrity: sha512-zOCYmCRVkWXc9v8P7OLbLlGGMxQTKMvi+5IC4v7O8DkjLCOHRzRVK/Lno2pGZNo0lzKM60pcQOhH8HVkXMQdFg==}
+  '@biomejs/cli-win32-x64@2.3.1':
+    resolution: {integrity: sha512-izl30JJ5Dp10mi90Eko47zhxE6pYyWPcnX1NQxKpL/yMhXxf95oLTzfpu4q+MDBh/gemNqyJEwjBpe0MT5iWPA==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -434,20 +434,14 @@ packages:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
     engines: {node: '>=6.0.0'}
 
-  '@jridgewell/sourcemap-codec@1.5.0':
-    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
-
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
-
-  '@jridgewell/trace-mapping@0.3.25':
-    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.127':
-    resolution: {integrity: sha512-86hjaDvdvsclnOYSlRpXf1bQgGLC+syiO74tVtiaDubLD19xXPcwtiU/yWwIzTHdyz5R3o9YfFicU73wY6uuWg==}
+  '@nikovirtala/projen-aws-cdk-app@0.0.128':
+    resolution: {integrity: sha512-vpJRpl/P8VvEgIA+hDQGmK14kcF0d7HJrffqdk2+A8hDwQxE5FP5soMWRPpMg3rMmoKR5dCXrb4gxJMyx8hfAA==}
     engines: {node: '>= 22.21.0'}
     peerDependencies:
       '@nikovirtala/projen-vitest': ^2.1.0
@@ -857,14 +851,6 @@ packages:
   fast-xml-parser@5.2.5:
     resolution: {integrity: sha512-pfX9uG9Ki0yekDHx2SiuRIyFdyAr1kMIMitPvb0YBo8SUfKvia7w7FIyd/l6av85pFYRhZscS75MwMnbvY+hcQ==}
     hasBin: true
-
-  fdir@6.4.6:
-    resolution: {integrity: sha512-hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==}
-    peerDependencies:
-      picomatch: ^3 || ^4
-    peerDependenciesMeta:
-      picomatch:
-        optional: true
 
   fdir@6.5.0:
     resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
@@ -1513,39 +1499,39 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
-  '@biomejs/biome@2.3.0':
+  '@biomejs/biome@2.3.1':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.3.0
-      '@biomejs/cli-darwin-x64': 2.3.0
-      '@biomejs/cli-linux-arm64': 2.3.0
-      '@biomejs/cli-linux-arm64-musl': 2.3.0
-      '@biomejs/cli-linux-x64': 2.3.0
-      '@biomejs/cli-linux-x64-musl': 2.3.0
-      '@biomejs/cli-win32-arm64': 2.3.0
-      '@biomejs/cli-win32-x64': 2.3.0
+      '@biomejs/cli-darwin-arm64': 2.3.1
+      '@biomejs/cli-darwin-x64': 2.3.1
+      '@biomejs/cli-linux-arm64': 2.3.1
+      '@biomejs/cli-linux-arm64-musl': 2.3.1
+      '@biomejs/cli-linux-x64': 2.3.1
+      '@biomejs/cli-linux-x64-musl': 2.3.1
+      '@biomejs/cli-win32-arm64': 2.3.1
+      '@biomejs/cli-win32-x64': 2.3.1
 
-  '@biomejs/cli-darwin-arm64@2.3.0':
+  '@biomejs/cli-darwin-arm64@2.3.1':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.3.0':
+  '@biomejs/cli-darwin-x64@2.3.1':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.3.0':
+  '@biomejs/cli-linux-arm64-musl@2.3.1':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.3.0':
+  '@biomejs/cli-linux-arm64@2.3.1':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.3.0':
+  '@biomejs/cli-linux-x64-musl@2.3.1':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.3.0':
+  '@biomejs/cli-linux-x64@2.3.1':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.3.0':
+  '@biomejs/cli-win32-arm64@2.3.1':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.3.0':
+  '@biomejs/cli-win32-x64@2.3.1':
     optional: true
 
   '@esbuild/aix-ppc64@0.25.11':
@@ -1628,21 +1614,14 @@ snapshots:
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
-  '@jridgewell/sourcemap-codec@1.5.0': {}
-
   '@jridgewell/sourcemap-codec@1.5.5': {}
-
-  '@jridgewell/trace-mapping@0.3.25':
-    dependencies:
-      '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
 
   '@jridgewell/trace-mapping@0.3.31':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.127(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.221.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.128(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2)))(aws-cdk-lib@2.221.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))':
     dependencies:
       '@nikovirtala/projen-vitest': 2.1.0(constructs@10.4.2)(projen@0.98.4(constructs@10.4.2))
       aws-cdk-lib: 2.221.0(constructs@10.4.2)
@@ -2134,10 +2113,6 @@ snapshots:
     dependencies:
       strnum: 2.1.1
 
-  fdir@6.4.6(picomatch@4.0.3):
-    optionalDependencies:
-      picomatch: 4.0.3
-
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
       picomatch: 4.0.3
@@ -2166,7 +2141,7 @@ snapshots:
 
   istanbul-lib-source-maps@5.0.6:
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.31
       debug: 4.4.3
       istanbul-lib-coverage: 3.2.2
     transitivePeerDependencies:
@@ -2290,7 +2265,7 @@ snapshots:
   vite@6.3.5(@types/node@22.18.12)(tsx@4.20.6):
     dependencies:
       esbuild: 0.25.11
-      fdir: 6.4.6(picomatch@4.0.3)
+      fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
       postcss: 8.5.6
       rollup: 4.44.0
