@@ -32,14 +32,14 @@
     "@vitest/coverage-v8": "^4",
     "aws-cdk": "^2",
     "esbuild": "^0.25.12",
-    "projen": "^0.98.6",
+    "projen": "^0.98.7",
     "tsx": "^4.20.6",
     "typescript": "5.9.3",
     "vitest": "^4"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.922.0",
-    "@aws-sdk/util-dynamodb": "^3.922.0",
+    "@aws-sdk/client-dynamodb": "^3.925.0",
+    "@aws-sdk/util-dynamodb": "^3.925.0",
     "@types/aws-lambda": "^8.10.157",
     "aws-cdk-lib": "^2.201.0",
     "constructs": "^10.0.5"
