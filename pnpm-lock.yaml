@@ -29,10 +29,10 @@ importers:
         version: 2.3.7
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.140
-        version: 0.0.140(@nikovirtala/projen-vitest@2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3)))(aws-cdk-lib@2.227.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+        version: 0.0.140(@nikovirtala/projen-vitest@2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3)))(aws-cdk-lib@2.227.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.12
-        version: 2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+        specifier: ^2.1.13
+        version: 2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       '@types/node':
         specifier: ^22
         version: 22.19.1
@@ -46,8 +46,8 @@ importers:
         specifier: ^0.27.0
         version: 0.27.0
       projen:
-        specifier: ^0.98.18
-        version: 0.98.18(constructs@10.4.3)
+        specifier: ^0.98.20
+        version: 0.98.20(constructs@10.4.3)
       tsx:
         specifier: ^4.20.6
         version: 4.20.6
@@ -609,12 +609,12 @@ packages:
       constructs: ^10.4.3
       projen: ^0.98.10
 
-  '@nikovirtala/projen-vitest@2.1.12':
-    resolution: {integrity: sha512-PeSvhUgaohBef1LykohMhogDhd3JqxJRjBS5307pH2cQpLa6WpqS3A8RQ9rd2LrXc1H2AcLPMu2q+lmh/50YHg==}
+  '@nikovirtala/projen-vitest@2.1.13':
+    resolution: {integrity: sha512-TyYNrvcrwQSNWiG9eIzQ1wGoFOlaqYu9ZW/iOGqUD3AcapUItQU9Hxl6uMZtkWsxY9ms2qshniPDyIZUFAuHMw==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
-      projen: ^0.98.18
+      projen: ^0.98.20
 
   '@rollup/rollup-android-arm-eabi@4.44.0':
     resolution: {integrity: sha512-xEiEE5oDW6tK4jXCAyliuntGR+amEMO7HLtdSshVuhFnKTYoeYMyXQK7pLouAJJj5KHdwdn87bfHAR2nSdNAUA==}
@@ -1107,8 +1107,8 @@ packages:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  projen@0.98.18:
-    resolution: {integrity: sha512-/xlU1y7tZwJzyhNLK9tofix+KsUpE0oNmacySb4/OhJnWzC/SEDsikoSfXEkDsjEdTOPaLMuMuF/mlyFa+/kbA==}
+  projen@0.98.20:
+    resolution: {integrity: sha512-67P4zQc7SKjyQ2745tz5mOzCj53HxkjWFmG1c3MeW6JePsccGJiltMi2zRbcWntykmDI+s7wsBGDvcbiEza3xQ==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -1885,17 +1885,17 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.140(@nikovirtala/projen-vitest@2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3)))(aws-cdk-lib@2.227.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.140(@nikovirtala/projen-vitest@2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3)))(aws-cdk-lib@2.227.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))':
     dependencies:
-      '@nikovirtala/projen-vitest': 2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+      '@nikovirtala/projen-vitest': 2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       aws-cdk-lib: 2.227.0(constructs@10.4.3)
       constructs: 10.4.3
-      projen: 0.98.18(constructs@10.4.3)
+      projen: 0.98.20(constructs@10.4.3)
 
-  '@nikovirtala/projen-vitest@2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))':
+  '@nikovirtala/projen-vitest@2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
-      projen: 0.98.18(constructs@10.4.3)
+      projen: 0.98.20(constructs@10.4.3)
 
   '@rollup/rollup-android-arm-eabi@4.44.0':
     optional: true
@@ -2486,7 +2486,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  projen@0.98.18(constructs@10.4.3):
+  projen@0.98.20(constructs@10.4.3):
     dependencies:
       constructs: 10.4.3
 
