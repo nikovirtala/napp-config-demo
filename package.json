@@ -11,6 +11,9 @@
     "destroy": "npx projen destroy",
     "diff": "npx projen diff",
     "eject": "npx projen eject",
+    "homebrew:bundle": "npx projen homebrew:bundle",
+    "install:homebrew": "npx projen install:homebrew",
+    "mise:trust": "npx projen mise:trust",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
     "post-upgrade": "npx projen post-upgrade",
@@ -26,9 +29,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.141",
-    "@nikovirtala/projen-vitest": "^2.1.24",
-    "@types/node": "^22",
+    "@nikovirtala/projen-constructs": "^0.2.34",
+    "@types/node": "^24",
     "@vitest/coverage-v8": "^4",
     "aws-cdk": "^2",
     "esbuild": "^0.27.1",
@@ -42,11 +44,11 @@
     "@aws-sdk/util-dynamodb": "^3.948.0",
     "@types/aws-lambda": "^8.10.159",
     "aws-cdk-lib": "^2.201.0",
-    "constructs": "^10.0.5"
+    "constructs": "^10.4.3"
   },
   "pnpm": {},
   "engines": {
-    "node": ">= 22.21.1"
+    "node": ">= 24.11.1"
   },
   "license": "MIT",
   "publishConfig": {

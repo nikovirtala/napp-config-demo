@@ -50,6 +50,7 @@ jspm_packages/
 .parcel-cache/
 !/.vscode/extensions.json
 !/.vscode/settings.json
+!/Brewfile
 !/mise.toml
 /coverage/
 !/vitest.config.ts

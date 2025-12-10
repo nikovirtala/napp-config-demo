@@ -28,11 +28,11 @@
     "typeRoots": [
       "./node_modules/@types"
     ],
-    "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "noEmit": true,
-    "noImplicitOverride": true
+    "noImplicitOverride": true,
+    "allowImportingTsExtensions": true
   },
   "include": [
     "src/**/*.ts",
