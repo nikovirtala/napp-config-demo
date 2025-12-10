@@ -1,6 +1,6 @@
-import { AwsCdkApp } from "@nikovirtala/projen-aws-cdk-app";
+import { AwsCdkTypeScriptAppProject } from "@nikovirtala/projen-constructs";
 
-const project = new AwsCdkApp({
+const project = new AwsCdkTypeScriptAppProject({
     autoApproveOptions: {
         allowedUsernames: ["nikovirtala"],
         secret: "GITHUB_TOKEN",
@@ -14,7 +14,7 @@ const project = new AwsCdkApp({
             labels: ["auto-approve", "auto-merge"],
         },
     },
-    devDeps: ["@nikovirtala/projen-aws-cdk-app"],
+    devDeps: ["@nikovirtala/projen-constructs"],
     license: "MIT",
     name: "napp-config-demo",
 });

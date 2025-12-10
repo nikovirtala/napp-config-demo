@@ -1,5 +1,5 @@
 {
-  "app": "tsx --tsconfig tsconfig.json src/main.ts",
+  "app": "npx tsx src/main.ts",
   "output": "cdk.out",
   "build": "npx projen bundle",
   "watch": {

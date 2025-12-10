@@ -6,16 +6,12 @@
       "type": "build"
     },
     {
-      "name": "@nikovirtala/projen-aws-cdk-app",
-      "type": "build"
-    },
-    {
-      "name": "@nikovirtala/projen-vitest",
+      "name": "@nikovirtala/projen-constructs",
       "type": "build"
     },
     {
       "name": "@types/node",
-      "version": "^22",
+      "version": "^24",
       "type": "build"
     },
     {
@@ -69,7 +65,7 @@
     },
     {
       "name": "constructs",
-      "version": "^10.0.5",
+      "version": "^10.4.3",
       "type": "runtime"
     }
   ],
