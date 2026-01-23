@@ -29,19 +29,19 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-constructs": "^0.2.76",
+    "@nikovirtala/projen-constructs": "^0.2.77",
     "@types/node": "^24",
     "@vitest/coverage-v8": "^4",
     "aws-cdk": "^2",
     "esbuild": "^0.27.2",
-    "projen": "^0.99.4",
+    "projen": "^0.99.7",
     "tsx": "^4.21.0",
     "typescript": "5.9.3",
     "vitest": "^4"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.972.0",
-    "@aws-sdk/util-dynamodb": "^3.972.0",
+    "@aws-sdk/client-dynamodb": "^3.974.0",
+    "@aws-sdk/util-dynamodb": "^3.974.0",
     "@types/aws-lambda": "^8.10.160",
     "aws-cdk-lib": "^2.201.0",
     "constructs": "^10.4.3"
