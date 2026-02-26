@@ -29,18 +29,18 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-constructs": "^0.2.110",
+    "@nikovirtala/projen-constructs": "^0.2.111",
     "@types/node": "^24",
     "@vitest/coverage-v8": "^4",
     "aws-cdk": "^2",
     "esbuild": "^0.27.3",
-    "projen": "^0.99.16",
+    "projen": "^0.99.17",
     "tsx": "^4.21.0",
     "typescript": "5.9.3",
     "vitest": "^4"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.997.0",
+    "@aws-sdk/client-dynamodb": "^3.998.0",
     "@aws-sdk/util-dynamodb": "^3.996.1",
     "@types/aws-lambda": "^8.10.160",
     "aws-cdk-lib": "^2.201.0",
@@ -48,7 +48,7 @@
   },
   "pnpm": {},
   "engines": {
-    "node": ">= 24.13.1"
+    "node": ">= 24.14.0"
   },
   "license": "MIT",
   "publishConfig": {
