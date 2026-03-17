@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.1009.0
-        version: 3.1009.0
+        specifier: ^3.1010.0
+        version: 3.1010.0
       '@aws-sdk/util-dynamodb':
         specifier: ^3.996.2
-        version: 3.996.2(@aws-sdk/client-dynamodb@3.1009.0)
+        version: 3.996.2(@aws-sdk/client-dynamodb@3.1010.0)
       '@types/aws-lambda':
         specifier: ^8.10.161
         version: 8.10.161
@@ -28,8 +28,8 @@ importers:
         specifier: ^2
         version: 2.4.7
       '@nikovirtala/projen-constructs':
-        specifier: ^0.2.129
-        version: 0.2.129(@mrgrain/cdk-esbuild@5.7.5(aws-cdk-lib@2.243.0(constructs@10.5.1))(constructs@10.5.1))(constructs@10.5.1)(projen@0.99.20(constructs@10.5.1))
+        specifier: ^0.2.130
+        version: 0.2.130(@mrgrain/cdk-esbuild@5.7.5(aws-cdk-lib@2.243.0(constructs@10.5.1))(constructs@10.5.1))(constructs@10.5.1)(projen@0.99.20(constructs@10.5.1))
       '@types/node':
         specifier: ^24
         version: 24.12.0
@@ -83,8 +83,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-dynamodb@3.1009.0':
-    resolution: {integrity: sha512-2QYVDbPQpVWxXzeVo94NYwv12K5r1+7Bm4IgG/4TuU03nxgXqdlODWv7VPQeYE+a6cCMWxlEoeWAdX6SJ/lx6A==}
+  '@aws-sdk/client-dynamodb@3.1010.0':
+    resolution: {integrity: sha512-iVgfou3tQ6lIsaWh4Ke4Ki5zc8p0Gu/fOrTnpbqwaTFPxjMgYv56wZ5RsRdvmpenWarsi6YyAUeNODLkzi1DWw==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.973.20':
@@ -607,8 +607,8 @@ packages:
       aws-cdk-lib: ^2.51.0
       constructs: ^10.0.5
 
-  '@nikovirtala/projen-constructs@0.2.129':
-    resolution: {integrity: sha512-o39FJqHngq7Dv0x4u92mUh3sWfrN8Pe0SpHy60jSL+9YcJ3dQkGYqLEytwNMAPr9KTI8z6QIf5W0NBNw1hjLAA==}
+  '@nikovirtala/projen-constructs@0.2.130':
+    resolution: {integrity: sha512-GXnx2DnuCxtxr7EEzm3ZkAXXU2WFlMuIUTJAQl/msLk8DwiXzFYGzCtCTP0VULN7dMeyulG15QYGF9qKHkLjWA==}
     engines: {node: '>= 24.14.0'}
     peerDependencies:
       '@mrgrain/cdk-esbuild': ^5.7.11
@@ -1336,7 +1336,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-dynamodb@3.1009.0':
+  '@aws-sdk/client-dynamodb@3.1010.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -1626,9 +1626,9 @@ snapshots:
       '@smithy/types': 4.13.1
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.996.2(@aws-sdk/client-dynamodb@3.1009.0)':
+  '@aws-sdk/util-dynamodb@3.996.2(@aws-sdk/client-dynamodb@3.1010.0)':
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.1009.0
+      '@aws-sdk/client-dynamodb': 3.1010.0
       tslib: 2.8.1
 
   '@aws-sdk/util-endpoints@3.996.5':
@@ -1889,7 +1889,7 @@ snapshots:
     optionalDependencies:
       esbuild: 0.25.12
 
-  '@nikovirtala/projen-constructs@0.2.129(@mrgrain/cdk-esbuild@5.7.5(aws-cdk-lib@2.243.0(constructs@10.5.1))(constructs@10.5.1))(constructs@10.5.1)(projen@0.99.20(constructs@10.5.1))':
+  '@nikovirtala/projen-constructs@0.2.130(@mrgrain/cdk-esbuild@5.7.5(aws-cdk-lib@2.243.0(constructs@10.5.1))(constructs@10.5.1))(constructs@10.5.1)(projen@0.99.20(constructs@10.5.1))':
     dependencies:
       '@mrgrain/cdk-esbuild': 5.7.5(aws-cdk-lib@2.243.0(constructs@10.5.1))(constructs@10.5.1)
       constructs: 10.5.1

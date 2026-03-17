@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-constructs": "^0.2.129",
+    "@nikovirtala/projen-constructs": "^0.2.130",
     "@types/node": "^24",
     "@vitest/coverage-v8": "^4",
     "aws-cdk": "^2",
@@ -40,7 +40,7 @@
     "vitest": "^4"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1009.0",
+    "@aws-sdk/client-dynamodb": "^3.1010.0",
     "@aws-sdk/util-dynamodb": "^3.996.2",
     "@types/aws-lambda": "^8.10.161",
     "aws-cdk-lib": "^2.201.0",
