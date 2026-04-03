@@ -26,6 +26,10 @@
     "strictPropertyInitialization": true,
     "stripInternal": true,
     "target": "esnext",
+    "types": [
+      "node",
+      "aws-lambda"
+    ],
     "moduleResolution": "nodenext",
     "typeRoots": [
       "./node_modules/@types"
