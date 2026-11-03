@@ -6,9 +6,12 @@ import { createHash } from "crypto";
 
 import type { ITableV2WithCustomKeySchema } from "./table-with-custom-key-schema.ts";
 
-export enum ConfigType {
-    SampleConfig = "SAMPLECONFIG",
-}
+/* A const object instead of an enum, so Node.js can run this file with type stripping */
+export const ConfigType = {
+    SampleConfig: "SAMPLECONFIG",
+} as const;
+
+export type ConfigType = (typeof ConfigType)[keyof typeof ConfigType];
 
 export interface SampleConfig {
     sample: boolean;
