@@ -28,8 +28,8 @@ importers:
         specifier: ^2.5
         version: 2.6.4
       '@nikovirtala/projen-constructs':
-        specifier: ^0.4.1
-        version: 0.4.1(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))
+        specifier: ^0.5.4
+        version: 0.5.4(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))
       '@types/node':
         specifier: ^26
         version: 26.6.6
@@ -45,9 +45,6 @@ importers:
       projen:
         specifier: ^0.104.23
         version: 0.104.23(constructs@10.8.1)
-      tsx:
-        specifier: ^4.23.15
-        version: 4.23.15
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -573,8 +570,8 @@ packages:
       aws-cdk-lib: ^2.51.0
       constructs: ^10.5.0
 
-  '@nikovirtala/projen-constructs@0.4.1':
-    resolution: {integrity: sha512-a78z649xw3SQXfEu0YhocbhoSiPr3rYkDyvX7Yn6D6VeVg8fBpA/JRAABf1rQNJZpePkqLSj8ASsla/XMZnLSw==}
+  '@nikovirtala/projen-constructs@0.5.4':
+    resolution: {integrity: sha512-X4A36koRV6BiPFs7EBGN02cVObfWIPk9kcfuEcdoClxGdWARGN3LO8i3prz9SZ4se5HpMOss2H3s6DZYNwAC+Q==}
     engines: {node: '>= 26.13.0'}
     peerDependencies:
       '@mrgrain/cdk-esbuild': ^5.8.5
@@ -1520,7 +1517,7 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.7
 
-  '@nikovirtala/projen-constructs@0.4.1(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))':
+  '@nikovirtala/projen-constructs@0.5.4(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))':
     dependencies:
       '@mrgrain/cdk-esbuild': 5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)
       constructs: 10.8.1
@@ -1883,6 +1880,7 @@ snapshots:
       esbuild: 0.28.2
     optionalDependencies:
       fsevents: 2.3.3
+    optional: true
 
   typescript@6.0.3: {}
 
