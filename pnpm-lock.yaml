@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-dynamodb':
-        specifier: ^3.1162.0
-        version: 3.1162.0
+        specifier: ^3.1163.0
+        version: 3.1163.0
       '@aws-sdk/util-dynamodb':
         specifier: ^3.996.9
-        version: 3.996.9(@aws-sdk/client-dynamodb@3.1162.0)
+        version: 3.996.9(@aws-sdk/client-dynamodb@3.1163.0)
       '@types/aws-lambda':
         specifier: ^8.10.164
         version: 8.10.164
@@ -28,8 +28,8 @@ importers:
         specifier: ^2.5
         version: 2.6.5
       '@nikovirtala/projen-constructs':
-        specifier: ^0.5.6
-        version: 0.5.6(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.25(constructs@10.8.1))
+        specifier: ^0.5.7
+        version: 0.5.7(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.25(constructs@10.8.1))
       '@types/node':
         specifier: ^26
         version: 26.6.6
@@ -38,7 +38,7 @@ importers:
         version: 5.1.0(vitest@5.1.0)
       aws-cdk:
         specifier: ^2
-        version: 2.1147.0
+        version: 2.1148.0
       esbuild:
         specifier: ^0.28.2
         version: 0.28.2
@@ -67,8 +67,8 @@ packages:
       - jsonschema
       - semver
 
-  '@aws-sdk/client-dynamodb@3.1162.0':
-    resolution: {integrity: sha512-3KyY7lMsgGlC3C4aq6IV5p4ti85Sc67nJ2CYEPaEUBLkmUwtqAlGTTR7vWSk/L2MotNZQtGE6dd8MhWzsKLHnw==}
+  '@aws-sdk/client-dynamodb@3.1163.0':
+    resolution: {integrity: sha512-CRMJ34w76+Lbvy6xMYPQTo3+r/qKoYfxFBAJjoBXmK+noNWLwdF1cxlvzgDh+j3sy/XXYBCHlG0Z/Q+6CyTgmQ==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.980.0':
@@ -570,8 +570,8 @@ packages:
       aws-cdk-lib: ^2.51.0
       constructs: ^10.5.0
 
-  '@nikovirtala/projen-constructs@0.5.6':
-    resolution: {integrity: sha512-e9VeWr9JxoP6BgpbjfUaE4vNg6yl4fbTrPWoCDgGeP+xNFRR+WHvufvoC3VfRGYmsWXipm2mbPyfVI4h1LVq2A==}
+  '@nikovirtala/projen-constructs@0.5.7':
+    resolution: {integrity: sha512-DMapq8fOgCPuGGaWMehtWOXvTBbL75KOf7hR+vvApng/Z2G4cEUl92hZJMSmANL91QBEEusBQxiYHeIa0b5fPA==}
     engines: {node: '>= 26.13.0'}
     peerDependencies:
       '@mrgrain/cdk-esbuild': ^5.8.5
@@ -779,8 +779,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1147.0:
-    resolution: {integrity: sha512-2ON/W4jShXWS926bKO6Osgw3MDlxhco5cz3n7SS5GLzaEaYs6ebpAHRDZp6sirkGnMqWoUwxCmIOkvAHS9Rn2A==}
+  aws-cdk@2.1148.0:
+    resolution: {integrity: sha512-G7MqPDzldsFxrVSFxR8Oj3vf8NutokIatJVygW/g/0COjrepsbDjuCP9OB9iN2hOn3QvOSf10qd5K/P3D5TQcQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -1113,7 +1113,7 @@ snapshots:
 
   '@aws-cdk/cloud-assembly-schema@55.3.0': {}
 
-  '@aws-sdk/client-dynamodb@3.1162.0':
+  '@aws-sdk/client-dynamodb@3.1163.0':
     dependencies:
       '@aws-sdk/core': 3.980.0
       '@aws-sdk/credential-provider-node': 3.972.93
@@ -1273,9 +1273,9 @@ snapshots:
       '@smithy/types': 4.19.0
       tslib: 2.8.1
 
-  '@aws-sdk/util-dynamodb@3.996.9(@aws-sdk/client-dynamodb@3.1162.0)':
+  '@aws-sdk/util-dynamodb@3.996.9(@aws-sdk/client-dynamodb@3.1163.0)':
     dependencies:
-      '@aws-sdk/client-dynamodb': 3.1162.0
+      '@aws-sdk/client-dynamodb': 3.1163.0
       tslib: 2.8.1
 
   '@aws-sdk/xml-builder@3.972.42':
@@ -1517,7 +1517,7 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.7
 
-  '@nikovirtala/projen-constructs@0.5.6(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.25(constructs@10.8.1))':
+  '@nikovirtala/projen-constructs@0.5.7(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.25(constructs@10.8.1))':
     dependencies:
       '@mrgrain/cdk-esbuild': 5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)
       constructs: 10.8.1
@@ -1664,7 +1664,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 55.3.0
       constructs: 10.8.1
 
-  aws-cdk@2.1147.0: {}
+  aws-cdk@2.1148.0: {}
 
   bowser@2.11.0: {}
 
